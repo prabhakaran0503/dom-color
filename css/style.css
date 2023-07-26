@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin:0 auto;
+    height: 400px;
+    display: flex;
+    padding: 20px;
+    border: 2px solid;
+    background-color: aquamarine;
+    
+    }
+    
+    .cols{
+    border: 2px solid blueviolet;
+    padding: 30px;;
+    }
+    .cols input{
+        padding: 5px;
+    }
+    .cols p{
+        padding-top: 50px;
+    }
+    .cols h1{
+        padding-bottom: 30px;
+    }
+    .but{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+    button{
+        
+        padding:10px 30px 10px 30px;
+        border-radius: 50px;
+        background-color: aqua
+       ;
+    }
